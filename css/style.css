@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "e-ukraine-bold_w";
+    src: url(/fonts/e-Ukraine/e-ukraine-bold_w.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "e-ukraine-light_w";
+    src: url(/fonts/e-Ukraine/e-ukraine-light_w.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "e-ukraine-medium_w";
+    src: url(/fonts/e-Ukraine/e-ukraine-medium_w.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "e-ukraine-regular_w";
+    src: url(/fonts/e-Ukraine/e-ukraine-regular_w.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "e-ukraine-thin_w";
+    src: url(/fonts/e-Ukraine/e-ukraine-thin_w.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "e-ukraine-ultralight_w";
+    src: url(/fonts/e-Ukraine/e-ukraine-ultralight_w.ttf) format("truetype");
+}
+
+
+* {
+    font-family: 'e-ukraine-medium_w';
+    font-size: 17;
+}
+
+a {
+    color: black;
+}
+
+header nav a {
+    
+    background-color: #E0D0C1;
+    padding: 12px;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+header .cart {
+    border: 2px solid #E0D0C1;
+    border-radius: 100px;
+    padding: 5px 10px;
+}
+
+header span {
+    color: #E0D0C1;
+}
+
+header .cart img {
+    max-height: 50px;
+}
+
+
+.section1 {
+    min-height: 500px;
+    background: #B3AAA3;
+    font-family: 'e-ukraine-bold_w';
+}
+
+.section1 h2 {
+    font-size: 90px;
+}
+
+.section1 h3 {
+    font-size: 36px;
+}
+
+.section1 h3, .section1 span {
+    color: #FAFAFA;
+}
+
+.section1 .social {
+    position: fixed;
+    top: 100px;
+    right: 5px;
+}
+
+.section1 .social img {
+    max-width: 48px;
+}
+
+/* .section1 img {
+    max-width: 96px;
+} */
+
+
+.section2 a {
+    
+    background-color: #E0D0C1;
+    padding: 12px;
+    border-radius: 5%;
+}
+
+.section2 p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.section2 .buttons  {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section3 {
+    background-color: #B3AAA3;
+}
+
+.section3 .calculation {
+    background-color: white;
+    /* border-radius: 57px; */
+    border-radius: 60px 0;
+    padding: 30px;
+}
+
+.section3 .calculation h4 {
+    font-family: 'e-ukraine-bold_w';
+    font-size: 35px;
+}
+
+.section3 .calculation p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.section3 .calculation a {
+    text-align: center;
+    background-color: #7E6F5E;
+    color: white;
+    padding: 20px;
+}
+
+.section4{
+    font-family: 'e-ukraine-bold_w';
+    font-size: 20px;
+}
+
+.section4 h4 {
+    font-size: 48px;
+}
+
+footer {
+    background-color: #B3AAA3;
+}
+
+footer .contacts {
+    font-size: 30px;
+}
+
+footer a {
+    color: white;
+}
