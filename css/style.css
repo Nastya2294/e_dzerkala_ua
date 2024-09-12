@@ -38,7 +38,42 @@ a {
     color: black;
 }
 
-header nav a {
+#modal_request .modal-header {
+    font-family: 'e-ukraine-medium_w';
+    padding: 0 10px;
+    border: none;
+}
+
+#modal_request {
+    font-family: 'e-ukraine-regular_w';
+    font-size: 20;
+}
+
+#modal_request label{
+    padding: 0;
+    color: #A59D92;
+}
+
+#modal_request input{
+    border: solid 1px #A59D92;
+}
+
+#modal_request .submit{
+    font-family: 'e-ukraine-bold_w';
+    background-color: #E0D0C1;
+    margin-top: 10px;
+}
+
+#modal_request .close{
+    font-size: 30px;
+}
+
+#modal_request form{
+    padding-bottom: 50px;
+}
+
+
+header nav a,  header nav button{
     
     background-color: #E0D0C1;
     padding: 12px;
