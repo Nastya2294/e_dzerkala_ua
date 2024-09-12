@@ -197,6 +197,16 @@ header .cart img {
     font-size: 48px;
 }
 
+.section6 p{
+    color: white;
+    text-align: center;
+}
+
+.section6 .feedback1{
+    background-image: url('../assets/feadback/1.jpg');
+    background-size: cover;
+}
+
 footer {
     background-color: #B3AAA3;
 }
