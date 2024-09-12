@@ -217,5 +217,11 @@ footer .contacts {
 
 footer a {
     color: white;
-    font-size: 32px;
+    font-size: 36px;
+}
+
+footer h2 {
+    margin-top: 30px !important;
+    font-family: 'e-ukraine-regular_w';
+    font-size: 36px;
 }
