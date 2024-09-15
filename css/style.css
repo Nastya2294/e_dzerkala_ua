@@ -1,33 +1,17 @@
 @font-face {
     font-family: "e-ukraine-bold_w";
-    src: url(fonts/e-Ukraine/e-ukraine-bold_w.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "e-ukraine-light_w";
-    src: url(fonts/e-Ukraine/e-ukraine-light_w.ttf) format("truetype");
+    src: url(../fonts/e-Ukraine/e-ukraine-bold) format("ttf");
 }
 
 @font-face {
     font-family: "e-ukraine-medium_w";
-    src: url(fonts/e-Ukraine/e-ukraine-medium_w.ttf) format("truetype");
+    src: url(../fonts/e-Ukraine/e-ukraine-medium_w.ttf) format("ttf");
 }
 
 @font-face {
     font-family: "e-ukraine-regular_w";
-    src: url(fonts/e-Ukraine/e-ukraine-regular_w.ttf) format("truetype");
+    src: url(../fonts/e-Ukraine/e-ukraine-regular_w.ttf) format("ttf");
 }
-
-@font-face {
-    font-family: "e-ukraine-thin_w";
-    src: url(fonts/e-Ukraine/e-ukraine-thin_w.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "e-ukraine-ultralight_w";
-    src: url(fonts/e-Ukraine/e-ukraine-ultralight_w.ttf) format("truetype");
-}
-
 
 * {
     font-family: 'e-ukraine-medium_w';
@@ -38,47 +22,73 @@ a {
     color: black;
 }
 
-#modal_request .modal-header {
+textarea {
+    padding: 5px;
+    resize: none;
+    border: solid 1px #A59D92;
+}
+
+.modal-header {
     font-family: 'e-ukraine-medium_w';
     padding: 0 10px;
     border: none;
 }
 
-#modal_request {
+.modal {
     font-family: 'e-ukraine-regular_w';
-    font-size: 20;
+    font-size: 20px;
 }
 
-#modal_request label{
+.modal label{
     padding: 0;
     color: #A59D92;
 }
 
-#modal_request input{
+.modal input{
     border: solid 1px #A59D92;
+    padding: 5px;
 }
 
-#modal_request .submit{
+.modal .submit{
     font-family: 'e-ukraine-bold_w';
     background-color: #E0D0C1;
     margin-top: 10px;
 }
 
-#modal_request .close{
+.modal .close{
     font-size: 30px;
 }
 
-#modal_request form{
-    padding-bottom: 50px;
+.modal form{
+    padding-bottom: 30px;
+}
+
+.social {
+    position: fixed;
+    top: 100px;
+    right: 5px;
+}
+
+.chat {
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+}
+
+.social img,
+.chat img {
+    max-width: 48px;
 }
 
 
 header nav a,  header nav button{
     
     background-color: #E0D0C1;
-    padding: 12px;
+    padding: 10px 24px;
     border-radius: 5%;
-    margin-left: 20px;
+    margin-left: 24px;
+    font-size: inherit;
+    font-family: inherit;
 }
 
 header .cart {
@@ -126,14 +136,8 @@ header .cart img {
     font-size: inherit;
 }
 
-.section1 .social {
-    position: fixed;
-    top: 100px;
-    right: 5px;
-}
-
-.section1 .social img {
-    max-width: 48px;
+.section1 img:hover {
+    transform: scale(1.25);
 }
 
 /* .section1 img {
@@ -167,7 +171,7 @@ header .cart img {
     background-color: white;
     /* border-radius: 57px; */
     border-radius: 60px 0;
-    padding: 30px;
+    padding: 50px 50px;
 }
 
 .section3 .calculation h4 {
@@ -195,6 +199,17 @@ header .cart img {
 
 .section4 h4 {
     font-size: 48px;
+}
+
+.section45 {
+    background-color: #B3AAA3;
+    color: whitesmoke;
+}
+
+.section45 p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 15px;
 }
 
 .section6 p{
