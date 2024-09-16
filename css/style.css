@@ -124,7 +124,7 @@ textarea {
 
 .social img,
 .chat img {
-    max-width: 24px;
+    max-width: 30px;
     
 }
 
@@ -164,8 +164,9 @@ header span {
 }
 
 .section2 p {
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify;
+    margin-bottom: 5px;
 }
 
 .section2 .buttons  {
@@ -181,24 +182,24 @@ header span {
 .section3 .calculation {
     background-color: white;
     border-radius: 60px 0;
-    padding: 50px 50px;
+    padding: 0px 50px;
 }
 
 /* .section3 .calculation h4 {
-    font-family: 'e-ukraine-bold_w';
-    font-size: 35px;
+    font-size: 20px;
 } */
 
 .section3 .calculation p {
     text-align: justify;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .section3 .calculation a {
     text-align: center;
     background-color: #7E6F5E;
     color: white;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 10px;
     font-size: 20px;
 }
 
@@ -211,6 +212,10 @@ header span {
     background-color: #B3AAA3;
     color: whitesmoke;
 }
+
+.section45 img {
+    max-height: 500px;
+} 
 
 .section45 p {
     font-size: 17px;

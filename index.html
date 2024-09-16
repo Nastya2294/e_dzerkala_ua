@@ -23,7 +23,7 @@
                     <div class="row">
                         <h4 class="col-12 text-center">Заявка</h4>
                     </div>
-                    <form id="form_request" name="form_request">
+                    <form id="form_request" name="form_request" action="form1.php" method="POST">
                         <div class="row my-2">
                             <label class="col-6 offset-3" for="input_name">Ім’я</label>
                         </div>
@@ -129,7 +129,7 @@
     </header>
     <main>
         <section class="section1">
-            <div class="container py-5">
+            <div class="container py-4">
                 <div class="row d-flex align-items-center">
                     <div class="col-4 col-lg-2">
                         <img class="img-fluid " src="assets/cover/Intersect.png" alt="">
@@ -148,20 +148,20 @@
             </div>
         </section>
         <section class="container section2 py-3">
-            <h3 class="py-3 text-center" id="products">Продукція</h3>
+            <h3 class="py-1 text-center" id="products">Продукція</h3>
             <h4 class="text-center">Круглі дзеркала</h4>
-            <div class="row my-4">
+            <div class="row my-3">
                 <div class="col-12 col-lg-4 d-flex flex-column justify-content-between">
                     <div>
                         <img class="img-fluid" src="assets/production/1.png" alt="">
-                        <h5 class="py-2">Дзеркало у ванну</h5>
+                        <h5 class="py-1">Дзеркало у ванну</h5>
                         <p>
                             Дзеркало з м'якою фоновою LED підсвіткою, створює затишну та розслаблюючу атмосферу у ванній
                             кімнаті.
                         </p>
                     </div>
-                    <div class="container-fluid py-2 buttons">
-                        <div class="my-2">Діаметр 70 см</div>
+                    <div class="container-fluid py-1 buttons">
+                        <div class="my-1">Діаметр 70 см</div>
                         <div class="row">
                             <div class="col-12 text-center my-2">
                                 <button class="w-100 cast_button"  data-bs-toggle="modal"
@@ -179,12 +179,12 @@
                 <div class="col-12 col-lg-4 d-flex flex-column justify-content-between">
                     <div>
                         <img class="img-fluid" src="assets/production/2.png" alt="">
-                        <h5 class="py-2">Дзеркало  у спальню </h5>
+                        <h5 class="py-1">Дзеркало  у спальню </h5>
                         <p>Дзеркало з яскравою фронтальною LED підсвіткою, що забезпечує чудове освітлення для макіяжу та
                             догляду за шкірою.
                     </div>
                     <div class="container-fluid py-2 buttons">
-                        <div class="my-2">Діаметр 70 см</div>
+                        <div class="my-1">Діаметр 70 см</div>
                         <div class="row">
                             <div class="col-12 text-center my-2">
                                 <button class="w-100 cast_button"  data-bs-toggle="modal"
@@ -202,11 +202,11 @@
                 <div class="col-12 col-lg-4 d-flex flex-column justify-content-between">
                     <div>
                         <img class="img-fluid" src="assets/production/3.png" alt="">
-                        <h5 class="py-2">Дзеркало у передпокій</h5>
+                        <h5 class="py-1">Дзеркало у передпокій</h5>
                         <p>Дзеркало з комбінованою LED підсвіткою унікальне поєднання фронтального та фонового освітлення.
                     </div>
                     <div class="container-fluid py-2 buttons">
-                        <div class="my-2">Діаметр 70 см</div>
+                        <div class="my-1">Діаметр 70 см</div>
                         <div class="row">
                             <div class="col-12 text-center my-2">
                                 <button class="w-100 cast_button"  data-bs-toggle="modal"
@@ -223,18 +223,21 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid section3 py-5">
+        <section class="container-fluid section3 py-2">
             <div class="container">
                 <div class="row py-3">
                     <div class="col-lg-4 d-none d-lg-block">
                         <img class="img-fluid" src="assets/calculation/1.png" alt="">
                     </div>
                     <div class="col-12 col-lg-7 offset-lg-1">
-                        <div class="calculation h-100 d-flex flex-column justify-content-around py-5">
+                        <div class="calculation h-100 d-flex flex-column justify-content-around py-3">
                             <h3 class="text-center">Прорахунок дзеркал</h3>
-                            <p class="py-3 text-center">Скажіть нам, яку ідею дзеркала вихочете втілити, та отримайте
+                            <p class="py-1 text-center">Скажіть нам, яку ідею дзеркала вихочете втілити, та отримайте
                                 консультацію, проект візуалізації та прорахунок вартості.</p>
-                            <a class="col-md-8 offset-md-2 text-center" href="#">Прорахунок та консультація</a>
+                                
+                            <a class="col-lg-8 offset-lg-2 text-center" href="" data-bs-toggle="modal"
+                            data-bs-target="#modal_request2">Прорахунок та консультація</a>
+                            <img class="img-fluid py-3 d-lg-none" src="assets/calculation/1.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -246,12 +249,12 @@
                     <h4 class="text-center">8000</h4>
                     <h6 class="text-center">Успішно виконаних замовлень</h6>
                 </div>
-                <hr class="d-md-none">
+                <hr class="d-lg-none">
                 <div class="col-12 col-lg-4 my-2">
                     <h4 class="text-center">1500</h4>
                     <h6 class="text-center">Втілено в життя індивідуальних проєктів</h6>
                 </div>
-                <hr class="d-md-none">
+                <hr class="d-lg-none">
                 <div class="col-12 col-lg-4 my-2">
                     <h4 class="text-center">10</h4>
                     <h6 class="text-center">Років на ринку</h6>
@@ -259,16 +262,44 @@
             </div>
         </section>
         <section class="container_fluid section45" id="visual">
-            <div class="container">
+            <div class="container py-3">
                 <div class="row">
-                    <div class="col-12 col-lg-4 py-2 order-lg-1">
-                        <h4 class="text-center my-3">Візуалізація<br>Вашого інтер’єру</h4>
+                    <div class="col-12 py-2 ">
+                        <h4 class="text-center my-2">Візуалізація<br>Вашого інтер’єру</h4>
                     </div>
-                    <div class="col-6 col-lg-4 order-lg-0">
-                        <img class="img-fluid" src="assets/visual/1.png" alt="">
+                    <div class="d-lg-none">
+                        <div class="col-12">
+                            <div id="carousel4" class="carousel slide" data-bs-interval="999999" data-touch="true" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/visual/1.png" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/visual/2.png" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6 col-lg-4 order-lg-2">
-                        <img class="img-fluid" src="assets/visual/2.png" alt="">
+                    <div class="d-none d-lg-flex my-2">
+                        <div class="col-lg-6 text-center">
+                            <img class="img-fluid" src="assets/visual/1.png" alt="">
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <img class="img-fluid" src="assets/visual/2.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -278,16 +309,16 @@
                 <h3 class="col-12 text-center" id="catalog">Каталог</h3>
             </div>
 
-            <div class="row py-3"></div>
+            <div class="row py-3">
                 <h4 class="text-center">Круглі дзеркала</h4>
             </div>
 
-            <div class="row d-block d-md-none">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-touch="true" data-bs-ride="carousel">
+            <div class="row d-block d-lg-none">
+                <div id="carousel1" class="carousel slide" data-bs-interval="999999" data-touch="true" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -300,15 +331,15 @@
                         <img src="assets/catalog/круглі/круг прихожа.png" class="d-block w-100" alt="...">
                       </div>
                     </div>
-                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
-                      </button> -->
-                  </div>
+                    </button>
+                </div>
             </div>
             
             <div class="row d-none d-lg-flex">
@@ -327,7 +358,37 @@
             <div class="row py-3">
                 <h4 class="text-center">Овальні дзеркала</h4>
             </div>
-            <div class="row">
+
+            <div class="row d-block d-lg-none">
+                <div id="carousel2" class="carousel slide" data-bs-interval="999999" data-touch="true" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/catalog/овал/Овал ванна.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/catalog/овал/овал спальня.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/catalog/овал/овал прихожа.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="row d-none d-lg-flex">
                 <div class="col-12 col-lg-4">
                     <img class="img-fluid" src="assets/catalog/овал/Овал ванна.png" alt="">
                 </div>
@@ -338,10 +399,41 @@
                     <img class="img-fluid" src="assets/catalog/овал/овал прихожа.png" alt="">
                 </div>
             </div>
+
             <div class="row py-3">
                 <h4 class="text-center">Капсульні дзеркала</h4>
             </div>
-            <div class="row">
+
+            <div class="row d-block d-lg-none">
+                <div id="carousel3" class="carousel slide" data-bs-interval="999999" data-touch="true" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/catalog/капсула/капсула ванна.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/catalog/капсула/капсула спальня.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/catalog/капсула/капсула прихожа.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="row d-none d-lg-flex">
                 <div class="col-12 col-lg-4">
                     <img class="img-fluid" src="assets/catalog/капсула/капсула ванна.png" alt="">
                 </div>
@@ -361,10 +453,10 @@
                     <a href="tel:+380933522317">+380933522317</a>
                 </div>
             </div>
-            <div class="row py-2 py-md-4">
+            <div class="row py-2 py-lg-4">
                 <h1 class="col-12 text-center">Єdzerkala.ua</h1>
             </div>
-            <div class="row py-md-2">
+            <div class="row py-lg-2">
                 <h6 class="col-12 text-center">Copyright © 2014-2024 Єdzerkala.ua </h6>
             </div>
         </div>
