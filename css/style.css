@@ -1,25 +1,61 @@
 @font-face {
-    font-family: "e-ukraine-bold_w";
-    src: url(../fonts/e-Ukraine/e-ukraine-bold) format("ttf");
+    font-family: "e-ukraine-bold";
+    src: url(../fonts/e-Ukraine/e-ukraine-bold_w.ttf) format("TrueType");
 }
 
 @font-face {
-    font-family: "e-ukraine-medium_w";
-    src: url(../fonts/e-Ukraine/e-ukraine-medium_w.ttf) format("ttf");
+    font-family: "e-ukraine-medium";
+    src: url(../fonts/e-Ukraine/e-ukraine-medium_w.ttf) format("TrueType");
 }
 
 @font-face {
-    font-family: "e-ukraine-regular_w";
-    src: url(../fonts/e-Ukraine/e-ukraine-regular_w.ttf) format("ttf");
+    font-family: "e-ukraine-regular";
+    src: url(../fonts/e-Ukraine/e-ukraine-regular_w.ttf) format("TrueType");
 }
 
 * {
-    font-family: 'e-ukraine-medium_w';
+    font-family: 'e-ukraine-medium';
     font-size: 17px;
 }
 
 a {
     color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "e-ukraine-bold";
+}
+
+h1, h3 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 75px;
+}
+
+h2 span {
+    color: #FAFAFA;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 24px;
+}
+
+.cast_button {
+    font-size: 17px;
+    font-family: "e-ukraine-medium";
+    background-color: #E0D0C1;
+    padding: 10px;
+    border-radius: 5%;
 }
 
 textarea {
@@ -65,36 +101,19 @@ textarea {
 
 .social {
     position: fixed;
-    top: 100px;
+    bottom: 120px;
     right: 5px;
 }
 
 .chat {
     position: fixed;
-    bottom: 50px;
+    bottom:5px;
     right: 5px;
 }
 
 .social img,
 .chat img {
-    max-width: 48px;
-}
-
-
-header nav a,  header nav button{
-    
-    background-color: #E0D0C1;
-    padding: 10px 24px;
-    border-radius: 5%;
-    margin-left: 24px;
-    font-size: inherit;
-    font-family: inherit;
-}
-
-header .cart {
-    border: 2px solid #E0D0C1;
-    border-radius: 100px;
-    padding: 5px 10px;
+    max-width: 24px;
 }
 
 header span {
@@ -102,48 +121,28 @@ header span {
     font-size: 24px;
 }
 
-header .cart img {
-    max-height: 50px;
-}
-
-
 .section1 {
     background: #B3AAA3;
     font-family: 'e-ukraine-bold_w';
 }
 
-.section1 h2 {
-    font-size: 75px;
-}
-
-.section1 h3 {
+.section1 .description {
     font-size: 36px;
-}
-
-.section1 h3, .section1 span {
     color: #FAFAFA;
-    
 }
-
-/* .section1 span {
-    -webkit-box-shadow: 0px 0px 26px 27px rgba(255, 255, 247, 0.65);
-    -moz-box-shadow: 0px 0px 26px 27px rgba(255, 255, 247, 0.65);
-    box-shadow: 0px 0px 26px 27px rgba(255, 255, 247, 0.65);
-} */
 
 .section1 span {
     text-shadow: #fffff7 1px 0 10px;
     font-size: inherit;
 }
 
+.cast_button:hover {
+    background-color: #FFE5B4;
+}
+
 .section1 img:hover {
     transform: scale(1.2);
 }
-
-/* .section1 img {
-    max-width: 96px;
-} */
-
 
 .section2 a {
     
@@ -169,7 +168,6 @@ header .cart img {
 
 .section3 .calculation {
     background-color: white;
-    /* border-radius: 57px; */
     border-radius: 60px 0;
     padding: 50px 50px;
 }
@@ -197,19 +195,15 @@ header .cart img {
     font-size: 20px;
 }
 
-.section4 h4 {
-    font-size: 48px;
-}
-
 .section45 {
     background-color: #B3AAA3;
     color: whitesmoke;
 }
 
 .section45 p {
-    font-size: 20px;
+    font-size: 17px;
     text-align: justify;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .section6 p{
@@ -237,6 +231,27 @@ footer a {
 
 footer h2 {
     margin-top: 30px !important;
-    font-family: 'e-ukraine-regular_w';
-    font-size: 36px;
+}
+
+@media (min-width: 998px) {
+    .social {
+        position: fixed;
+        top: 100px;
+        right: 8px;
+    }
+    
+    .chat {
+        position: fixed;
+        bottom:20px;
+        right: 8px;
+    }
+    
+    .social img,
+    .chat img {
+        max-width: 36px;
+    }
+
+    .cast_button {
+        padding: 10px 14px;
+    }
 }
