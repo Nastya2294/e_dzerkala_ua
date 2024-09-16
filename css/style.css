@@ -26,28 +26,37 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "e-ukraine-bold";
 }
 
-h1, h3 {
-    font-size: 48px;
+h1{
+    font-size: 36px;
 }
 
 h2 {
-    font-size: 75px;
+    font-size: 40px;
 }
 
 h2 span {
     color: #FAFAFA;
 }
 
+h3 {
+    font-size: 32px;
+}
+
 h4 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 h5 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 h6 {
-    font-size: 24px;
+    font-size: 15px;
+}
+
+hr {
+    color: #7E6F5E;
+    /* width: 75% !important; */
 }
 
 .cast_button {
@@ -103,17 +112,20 @@ textarea {
     position: fixed;
     bottom: 120px;
     right: 5px;
+    z-index: 999;
 }
 
 .chat {
     position: fixed;
     bottom:5px;
     right: 5px;
+    z-index: 999;
 }
 
 .social img,
 .chat img {
     max-width: 24px;
+    
 }
 
 header span {
@@ -127,7 +139,7 @@ header span {
 }
 
 .section1 .description {
-    font-size: 36px;
+    font-size: 24px;
     color: #FAFAFA;
 }
 
@@ -172,14 +184,14 @@ header span {
     padding: 50px 50px;
 }
 
-.section3 .calculation h4 {
+/* .section3 .calculation h4 {
     font-family: 'e-ukraine-bold_w';
     font-size: 35px;
-}
+} */
 
 .section3 .calculation p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .section3 .calculation a {
@@ -187,7 +199,7 @@ header span {
     background-color: #7E6F5E;
     color: white;
     padding: 20px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .section4{
@@ -226,7 +238,7 @@ footer .contacts {
 
 footer a {
     color: white;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 footer h2 {
@@ -234,6 +246,34 @@ footer h2 {
 }
 
 @media (min-width: 998px) {
+    h2 {
+        font-size: 76px;
+    }
+
+    h3 {
+        font-size: 48px;
+    }
+
+    h6 {
+        font-size: 24px;
+    }
+    
+    .section1 .description {
+        font-size: 36px;
+    }
+
+    .section3 .calculation p {
+        font-size: 20px;
+    }
+
+    .section3 .calculation a {
+        font-size: 24px;
+    }
+
+    footer a {
+        font-size: 36px;
+    }
+
     .social {
         position: fixed;
         top: 100px;
